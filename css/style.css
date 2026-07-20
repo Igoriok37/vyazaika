@@ -303,8 +303,8 @@ img{ display:block; max-width:100%; }
   .how__step{ max-width:none; }
 }
 @media (max-width:480px){
-  .how__bg1{ max-width:52vw; }
-  .how__bg2{ max-width:46vw; }
+  .how__bg1{top: -4%; left: -5%; width:52vw; }
+  .how__bg2{bottom: 10%; width:46vw; }
   .how__num{ font-size:44px; }
 }
 
@@ -351,9 +351,9 @@ img{ display:block; max-width:100%; }
    уменьшаем и уводим в самый угол, чтобы не перекрывали текст/ссылки. */
 #about .how__bg1{ width:30vw; top:0; left:-8%; opacity: 0.1; }
 #about .how__bg2{ width:20vw; bottom:5%; right:-0%; opacity: 0.1; rotate: 320deg; }
-@media (max-width:600px){
-  #about .how__bg1{ max-width:30vw; top:-4%; left:-10%; }
-  #about .how__bg2{ max-width:26vw; bottom:-4%; right:-10%; }
+@media (max-width:480px){
+  #about .how__bg1{ max-width:30vw; top:0%; left: 0%; rotate: 20deg;}
+  #about .how__bg2{ width:40vw; bottom:0%; right:-10%; }
 }
 
 .about__socials{ display:flex; justify-content:center; gap:20px; position:relative; z-index:1; }
